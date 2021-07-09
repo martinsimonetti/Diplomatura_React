@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Contacto</title>
 </head>
 <body>
     <form action="">
         <h1>Contacto</h1>
-        <p>
-            <label for="mail">Correo Electrónico</label>
-            <br>
-            <input type="email" name="mail" id="mail">
-        </p>
-        <p>
-            <label for="mensaje">Mensaje</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-        </p>
-        <input type="submit" value="Enviar">
+        <div id="formContacto" class="bordeVerde centrado">
+            <p>
+                <label for="mail">Correo Electrónico</label>
+                <br>
+                <input type="email" name="mail" id="mail" class="bordeVerde">
+            </p>
+            <p>
+                <label for="mensaje">Mensaje</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="bordeVerde"></textarea>
+            </p>
+            <input type="submit" value="Enviar" class="botonPrincipal" style="display: block; margin: auto; margin-bottom: 1rem;">
+        </div>
     </form>
 </body>
 </html>

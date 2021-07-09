@@ -1,0 +1,50 @@
+h1{
+    color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+}
+a{
+    color: green;
+}
+.bordeVerde{
+    border-color: limegreen;
+}
+.botonPrincipal{
+    background-color: lightgreen;
+    border-color: limegreen;
+    border-radius: .3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+    font-weight: bold;
+}
+.centrado{
+    display: block;
+    margin: auto;
+}
+#foto{
+    width: 800px;    
+    border: yellowgreen;
+    border-width: .5rem;
+    border-style: solid;
+    border-radius: 2rem;
+}
+#formContacto{
+    border-style: solid;
+    border-radius: 1rem;
+    width: fit-content;
+}
