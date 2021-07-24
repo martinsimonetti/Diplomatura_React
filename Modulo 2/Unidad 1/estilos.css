@@ -1,25 +1,31 @@
 h1{
     color: seagreen;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-size: 3rem;
     text-align: center;
 }
 h2{
     color: darkgreen;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sarala', sans-serif;
 }
 h3{
     color: darkgreen;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sarala', sans-serif;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: justify;
 }
 a{
     color: green;
+}
+body{
+    background: linear-gradient(0deg, rgba(82,115,77,1) 0%, rgba(145,199,136,1) 50%, rgba(221,255,188,1) 100%);
+}
+img{
+    box-shadow: 0 0 20px #3d553a;
 }
 .bordeVerde{
     border-color: limegreen;
