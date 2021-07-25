@@ -1,11 +1,13 @@
 #contenedor{
     border: 3px solid black;
+    height: 600px;
     width: 600px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
-	align-content: flex-end;
+    align-content: center;
+    justify-content: center;
 }
 #rojo{
     background-color: red;
