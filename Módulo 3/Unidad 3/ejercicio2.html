@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        var longitud;
+        var numeros = [];
+        var max = 0;
+
+        longitud = prompt('¿Cuántos números desea cargar en el Array?', '');
+        longitud = parseInt(longitud);
+
+        //Carga del array 
+        for(var i=0; i<longitud; i++){
+            numeros[i] = prompt('Ingrese un número (' + (i+1) +' de '+longitud+'):', '');
+        }
+
+        //Búsqueda de máximo
+        for(var i=0; i<longitud; i++){
+            if(parseInt(numeros[i]) > max){
+                max = parseInt(numeros[i]);
+            }
+        }
+
+        document.write('El número más grande es: ' + max);
+    </script>
+</body>
+</html>
