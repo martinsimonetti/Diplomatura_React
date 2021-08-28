@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <script>
+        var distancia;
+        var mensaje;
+
+        distancia = prompt('Ingrese una distancia en metros a recorrer, así puedo indicarle el medio de transporte más adecuado.', '');
+
+        distancia = parseInt(distancia);
+
+        if(distancia<=1000){
+            mensaje = "Camine y disfrute el día.";
+        } else{
+            if(distancia<=10000){
+                mensaje = "Utilice su bicicleta.";
+            } else {
+                if(distancia<=30000){
+                    mensaje = "Tómese un colectivo.";
+                } else {
+                    if(distancia<=100000){
+                        mensaje = "Mejor encienda su auto.";
+                    } else {
+                        mensaje = "La única forma de llegar es en un avión.";
+                    }
+                }
+            }
+        }
+        
+        document.write(mensaje);
+    </script>
+</body>
+</html>
