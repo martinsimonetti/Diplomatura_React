@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Escriba un mensaje...</h3>
+        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+        <br>
+        <button>Contar caracteres</button>
+    </div>
+
+    <script>
+        var btnContar = document.getElementsByTagName('button')[0];
+
+        btnContar.addEventListener('click', function(){
+            var cuadroTexto = document.getElementById('mensaje');
+            alert('Hay ' + cuadroTexto.value.length + ' caracteres en el cuadro de texto.');
+            cuadroTexto.value = '';
+        });
+    </script>
+</body>
+</html>
