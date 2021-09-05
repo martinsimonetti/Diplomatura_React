@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <div class="principal">
+        <h1 style="text-align: center;">Selecciona un color</h1>
+        <div class="centrado">
+            <div class="btn rojo">Rojo</div>
+            <div class="btn verde">Verde</div>
+            <div class="btn azul">Azul</div>
+        </div>
+        <button style="align-self: center;">Reset</button>
+    </div>
+    <script>
+        var cuerpo = document.getElementsByTagName('body')[0];
+        var btnReset = document.getElementsByTagName('button')[0];
+
+        var btnRojo = document.getElementsByClassName('rojo')[0];
+        btnRojo.addEventListener("click", function(){
+            cuerpo.style.background = 'red';
+        });
+        
+        var btnVerde = document.getElementsByClassName('verde')[0];
+        btnVerde.addEventListener("click", function(){
+            cuerpo.style.background = 'green';
+        })
+
+        var btnAzul = document.getElementsByClassName('azul')[0];
+        btnAzul.addEventListener("click", function(){
+            cuerpo.style.background = 'blue';
+        })
+
+        var btnReset = document.getElementsByTagName('button')[0];
+        btnReset.addEventListener("click", function(){
+            cuerpo.style.background = '';
+        })
+    </script>
+</body>
+</html>
